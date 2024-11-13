@@ -6,7 +6,8 @@
 }
 
 body {
-  background-image: url(./image/bg-image.jpg), linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  background-image: url(./image/bg-image.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -25,7 +26,7 @@ header {
 }
 
 .logo {
-    color: blue;
+  color: blue;
 }
 
 .links {
@@ -47,45 +48,43 @@ header {
 /* HERO SECTION */
 
 .head-txt {
-    text-align: center;
-    margin-top: 120px;
+  text-align: center;
+  margin-top: 120px;
 }
 
 .txt-1 {
-    font-size: 50px;
-    font-weight: 500;
-    letter-spacing: -1.5px;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: -1.5px;
 }
 
 p {
-    margin-top: 20px;
-    line-height: 27px;
-    font-size: 16px;
-    font-weight: 400;
+  margin-top: 20px;
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 #enter-email {
-    border-radius: 50px;
-    border: none;
-    padding: 11px 15px;
-    color: blue;
-    width: 20vw;
-    background-color: rgb(255, 255, 255);
-
+  border-radius: 50px;
+  border: none;
+  padding: 11px 15px;
+  color: blue;
+  width: 20vw;
+  background-color: rgb(255, 255, 255);
 }
 
 #get-started {
-    text-decoration: none;
-    background-color: blue;
-    padding: 10px 15px;
-    border-radius: 50px;
-    margin-left: 8px;
-  }
+  text-decoration: none;
+  background-color: blue;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-left: 8px;
+}
